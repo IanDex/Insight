@@ -1,0 +1,27 @@
+{
+    "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css": "Bootstrap",
+    "css/bootstrap-themes/cerulean/bootstrap.min.css": "Cerulean", 
+    "css/bootstrap-themes/cosmo/bootstrap.min.css": "Cosmo",
+    "css/bootstrap-themes/cyborg/bootstrap.min.css": "Cyborg",
+    "css/bootstrap-themes/darkly/bootstrap.min.css": "Darkly",
+    "css/bootstrap-themes/flatly/bootstrap.min.css": "Flatly",
+    "css/bootstrap-themes/journal/bootstrap.min.css": "Journal",
+    "css/bootstrap-themes/litera/bootstrap.min.css": "Litera",
+    "css/bootstrap-themes/lumen/bootstrap.min.css": "Lumen",
+    "css/bootstrap-themes/lux/bootstrap.min.css": "Lux",
+    "css/bootstrap-themes/materia/bootstrap.min.css": "Materia",
+    "css/bootstrap-themes/minty/bootstrap.min.css": "Minty",
+    "css/bootstrap-themes/pulse/bootstrap.min.css": "Pulse",
+    "css/bootstrap-themes/sandstone/bootstrap.min.css": "Sandstone",
+    "css/bootstrap-themes/simplex/bootstrap.min.css": "Simplex",
+    "css/bootstrap-themes/sketchy/bootstrap.min.css": "Sketchy",
+    "css/bootstrap-themes/slate/bootstrap.min.css": "Slate",
+    "css/bootstrap-themes/solar/bootstrap.min.css": "Solar",
+    "css/bootstrap-themes/spacelab/bootstrap.min.css": "Spacelab",
+    "css/bootstrap-themes/superhero/bootstrap.min.css": "Superhero",
+    "css/bootstrap-themes/united/bootstrap.min.css": "United",
+    "css/bootstrap-themes/yeti/bootstrap.min.css": "Yeti"
+    
+    
+    
+}

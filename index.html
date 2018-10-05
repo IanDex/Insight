@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" id="estilo">
+    <link rel="stylesheet" href="css/global.css" id="globalcss">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form_builder">
+            <div class="row">
+                <div class="col-md-2 divnav">
+                    <nav class="nav-sidebar">
+                        <div class="form-group">
+                        <label for="select_theme">Bootstrap</label>
+                        <select class="form-control" id="select_theme"></select>
+                        </div>
+                        <ul class="nav">
+                            <li class="form_bal_textfield">
+                                <div class="form-group global" disabled="disabled">
+                                    <label>Input</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <hr>
+                            </li>
+                            <li class="form_bal_textarea">
+                                <div class="form-group global" disabled="disabled">
+                                    <label>Textarea</label>
+                                    <textarea type="text" class="form-control"></textarea>
+                                </div>
+                                <hr>
+                            </li>
+                            <li class="form_bal_checkbox">
+                                <div class="form-group form-check global" disabled="disabled">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                            </li>
+                        <button style="cursor: pointer;" class="btn btn-info export_html mt-2 pull-right">Export HTML</button>
+
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-8" style="border: 1px solid #eee">
+                    <div class="form_builder_area"></div>
+                </div>
+                <div class="col-md-2" style="border: 1px solid cyan">
+                    <form class="form-horizontal">
+                        <div class="preview"></div>
+                        <div style="display: none" class="form-group plain_html"><textarea rows="50" class="form-control"></textarea></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/draganddrop.js"></script>
+</body>
+
+</html>

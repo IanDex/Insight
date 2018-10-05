@@ -1,0 +1,36 @@
+html, body{
+    padding: 0px;
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+div[disabled=disabled] {
+    pointer-events: none;
+    cursor: pointer;
+  }
+
+.global{
+    border: 1px dashed #000; 
+    padding: 10px; 
+    border-radius: 8px;
+    width: 100%;
+}
+
+li{
+    width: 100%;
+    text-align: center;
+}
+
+.divnav{
+    border: 1px solid #eeeeee56;
+    padding: 10px
+}
+
+.form_builder_area {
+    width:100%;
+    min-height:550px;
+    position: absolute;
+    background-color: blanchedalmond;
+}
