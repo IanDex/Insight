@@ -29,6 +29,7 @@ div[disabled=disabled] {
 li{
     width: 100%;
     text-align: center;
+    cursor: move;
 }
 
 .divnav{
@@ -37,8 +38,8 @@ li{
 }
 
 .form_builder_area {
-  /*  width:100%;
-    min-height:550px;*/
+    width:100%;
+    height: 100vh;
     position: absolute;
     background-color: blanchedalmond;
 }
@@ -46,6 +47,7 @@ li{
 .elements{
     /* border: 1px red solid; */
     height:auto;
+    overflow: hidden;
 }
 
 .areawork{
@@ -60,19 +62,11 @@ li{
     height:auto; 
 }
 
-.elements .elementes_sub{ width: 100%; height: auto; overflow: auto; padding: 20px; position: absolute; left: 0px; right: 300px; top: 15%; bottom: 0px; margin: auto;}
-.elements .horizontal { width: 200px; height: 250px; overflow-x: scroll; overflow-y: hidden; padding: 10px; position: absolute; left: 300px; right: 0px; top: 0px; bottom: 0px; margin: auto;}
-.elements .horizontal p { width: 1000px; }
+.elements .elementes_sub{ width: 100%; height: auto; overflow: auto; padding: 20px; position: absolute; left: 0px; right: 0px; top: 15%; bottom: 0px; margin: auto;}
+
 
 /*Scrollbar 3*/
 .elements ::-webkit-scrollbar {
-    display: none;
-    width: 5px;
-    height: 5px;
-}
-
-.elements ::-webkit-scrollbar :hover {
-    display: block;
     width: 5px;
     height: 5px;
 }
@@ -83,6 +77,26 @@ li{
 }
  
 .elements ::-webkit-scrollbar-thumb {
+    background-color: orange;
+    border-radius: 5px;
+}
+
+
+.areawork .areawork_sub{ width: 100%; height: auto; overflow: auto; padding: 0; position: absolute; left: 0px; right: 0px; top: 0; bottom: 0px; margin: auto;}
+
+
+/*Scrollbar 3*/
+.areawork ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+ 
+.areawork ::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 5px;
+}
+ 
+.areawork ::-webkit-scrollbar-thumb {
     background-color: orange;
     border-radius: 5px;
 }
@@ -98,4 +112,9 @@ li{
     background-color: #eeeeee;
     width: 90%;
     padding: 15px 0;
+}
+.col-9{
+    width: 100%;
+    min-height: 0px;
+    padding-left: 0px;
 }
