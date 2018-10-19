@@ -69,7 +69,8 @@ $(document).ready(function () {
             ui.placeholder.height(ui.helper.outerHeight());
         },
         stop: function (ev, ui) {
-            alert("2");
+            console.log(ev);
+            console.log(ui);
             getPreview();
         }
     });

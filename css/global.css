@@ -62,7 +62,7 @@ li{
     height:auto; 
 }
 
-.elements .elementes_sub{ width: 100%; height: auto; overflow: auto; padding: 20px; position: absolute; left: 0px; right: 0px; top: 15%; bottom: 0px; margin: auto;}
+.elements .elementes_sub{ width: 100%; height: auto; overflow: auto; padding: 20px; position: absolute; left: 0px; top: 15%; bottom: 0px; margin: auto;}
 
 
 /*Scrollbar 3*/
@@ -82,7 +82,7 @@ li{
 }
 
 
-.areawork .areawork_sub{ width: 100%; height: auto; overflow: auto; padding: 0; position: absolute; left: 0px; right: 0px; top: 0; bottom: 0px; margin: auto;}
+.areawork .areawork_sub{ width: 100%; height: auto; overflow: auto; padding: 0; position: absolute; left: 0px; right: 0px; top: 0; bottom: 0px; }
 
 
 /*Scrollbar 3*/
@@ -113,8 +113,12 @@ li{
     width: 90%;
     padding: 15px 0;
 }
-.col-9{
+.col-9,.col-4,.col-10{
     width: 100%;
     min-height: 0px;
     padding-left: 0px;
+}
+
+.lol{
+    border: 1px solid red;
 }
