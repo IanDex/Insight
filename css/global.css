@@ -40,7 +40,7 @@ li{
 .form_builder_area {
     width:100%;
     height: 100vh;
-    position: absolute;
+    /* position: absolute; */
     background-color: blanchedalmond;
 }
 
@@ -52,6 +52,12 @@ li{
 
 .areawork{
     /* border: 2px cyan solid; */
+    height:auto;  
+    /* overflow-y: scroll; */
+}
+
+.areaview{
+    border: 2px cyan solid;
     height:100vh;  
     /* overflow-y: scroll; */
 }
@@ -82,7 +88,7 @@ li{
 }
 
 
-.areawork .areawork_sub{ width: 100%; height: auto; overflow: auto; padding: 0; position: absolute; left: 0px; right: 0px; top: 0; bottom: 0px; }
+.areawork .areawork_sub{ width: 100%; height: auto; overflow: auto; padding: 0; /*position: absolute;*/ left: 0px; right: 0px; top: 0; bottom: 0px; }
 
 
 /*Scrollbar 3*/
@@ -101,6 +107,28 @@ li{
     border-radius: 5px;
 }
 
+/* - */
+
+
+.areaview .areaview_sub{ width: 100%; height: auto; overflow: auto; padding: 0; /*position: absolute;*/ left: 0px; right: 0px; top: 0; bottom: 0px; }
+
+
+/*Scrollbar 3*/
+.areaview ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+ 
+.areaview ::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 5px;
+}
+ 
+.areaview ::-webkit-scrollbar-thumb {
+    background-color: orange;
+    border-radius: 5px;
+}
+
 .fl{
     position: relative;
     z-index: 1;
@@ -113,7 +141,7 @@ li{
     width: 90%;
     padding: 15px 0;
 }
-.col-9,.col-4,.col-10{
+.col-9, .col-4, .col-10{
     width: 100%;
     min-height: 0px;
     padding-left: 0px;
@@ -121,4 +149,9 @@ li{
 
 .lol{
     border: 1px solid red;
+    padding-right: 0px; 
+}
+
+.col-8, .col-10{
+    padding-right: 0px; 
 }
